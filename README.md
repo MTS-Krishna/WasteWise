@@ -92,7 +92,7 @@ python generate_qrs.py
 2.  **Collector App:** (at `http://localhost:8502`)
       * Use the URL from one of the generated QR codes (e.g., `http://localhost:8502/?bin_id=bin-A`).
       * Simulate a collector's feedback by submitting whether the bin's contents are "Valid" or "Contaminated."
-3.  **Credit System Dashboard:** (at `http://localhost:8500`)
+3.  **Credit System Dashboard:** (at `http://localhost:8504`)
       * Use this dashboard to simulate depositing recyclable plastics and checking a user's credit balance.
 4.  **Operations Dashboard:** (at `http://localhost:8503`)
       * View real-time metrics on bin fill levels and contamination rates.
